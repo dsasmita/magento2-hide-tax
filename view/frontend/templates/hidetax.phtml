@@ -1,0 +1,11 @@
+<?php
+$helper = $this->helper('Dangs\TaxInfoHide\Helper\Data');
+$status = $helper->getStatusTax();
+?>
+<?php if($status): ?>
+	<style type="text/css">
+	tr.totals-tax {
+		display: none;
+	}
+	</style>
+<?php endif; ?>

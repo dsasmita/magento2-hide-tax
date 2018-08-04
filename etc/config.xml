@@ -2,9 +2,9 @@
  <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
         <tax>
-            <classes>
-                <show_tax>0</show_tax>
-            </classes>
+            <sales_display>
+                <hide_tax>0</hide_tax>
+            </sales_display>
         </tax>
     </default>
 </config>
